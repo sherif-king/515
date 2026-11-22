@@ -92,9 +92,10 @@
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
             window.onYouTubeIframeAPIReady = function() {
+                // 🔥 تم تغيير رابط الأغنية هنا فقط
                 youtubePlayer = new YT.Player('yt-player-hidden', {
-                    height: '0', width: '0', videoId: 'X_tUNefoy54',
-                    playerVars: { 'autoplay': 0, 'controls': 0, 'loop': 1, 'playlist': 'X_tUNefoy54' },
+                    height: '0', width: '0', videoId: 'FTHi7lyw3xU',
+                    playerVars: { 'autoplay': 0, 'controls': 0, 'loop': 1, 'playlist': 'FTHi7lyw3xU' },
                     events: { 'onReady': (event) => { event.target.setVolume(70); } }
                 });
             };
