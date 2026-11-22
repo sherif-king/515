@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شريف | Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- شاشة الدخول -->
+    <div id="entry-screen">
+        <div class="entry-content">
+            <h2>ارحححب نورت</h2>
+            <p>اضغط أي زر عشان تدخل</p>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي (مخفي في البداية) -->
+    <div id="main-content" class="hidden">
+        
+        <!-- فيديو الخلفية -->
+        <div class="video-background">
+            <iframe id="bg-video" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <!-- طبقة تعتيم -->
+        <div class="overlay"></div>
+
+        <!-- البطاقة التعريفية -->
+        <div class="profile-card">
+            <div class="profile-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFvJp9_QfSTX26FemE7iBbESq0k0WZe1pHnQ8R6kHBA&s=10" alt="شريف" id="profile-pic">
+                <div class="glow-ring"></div>
+            </div>
+            
+            <h1 class="name">شريف</h1>
+            <p class="bio">شريف المعروف لا يعرف عندك اعتراض ؟</p>
+
+            <div class="social-links">
+                <a href="https://www.snapchat.com/add/x7x-99" target="_blank" class="social-btn snapchat">
+                    <i class="fab fa-snapchat-ghost"></i>
+                    <span>x7x-99</span>
+                </a>
+                <a href="https://t.me/K_NN_P" target="_blank" class="social-btn telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                    <span>K_NN_P</span>
+                </a>
+                <a href="https://www.tiktok.com/@nzse" target="_blank" class="social-btn tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>nzse</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- عنصر مخفي لتشغيل الأغنية -->
+    <div id="yt-player-hidden" style="display:none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
